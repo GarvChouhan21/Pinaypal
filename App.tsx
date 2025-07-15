@@ -11,13 +11,16 @@ import {
   Alert,
 } from 'react-native';
 import AgoraUIKit from 'agora-rn-uikit';
-
+import SplashScreen from 'react-native-splash-screen';
 const APP_ID = 'YOUR_APP_ID_HERE'; // from Agora Console
 const STATIC_UID = 12345; // MUST match the UID used during token generation
 const CHANNEL_NAME = 'test-room'; // Channel used when generating token
 const TEMP_TOKEN = 'YOUR_TOKEN_HERE'; // Token must be valid & match APP_ID + UID + Channel
 
 const App = () => {
+  if (Platform.OS=='android') {
+    SplashScreen.hide()
+  }
   const [videoCall, setVideoCall] = useState(false);
   const [permissionsGranted, setPermissionsGranted] = useState(false);
   const [callActive, setCallActive] = useState(false);
