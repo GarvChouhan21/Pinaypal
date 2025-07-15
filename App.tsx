@@ -136,7 +136,7 @@ const App = () => {
 const styles = StyleSheet.create({
   container: { flex: 1, backgroundColor: '#fff' },
   homeContainer: { flex: 1, justifyContent: 'center', alignItems: 'center' },
-  title: { fontSize: 28, fontWeight: 'bold', marginBottom: 20 },
+  title: { fontSize: 28, fontWeight: 'bold', marginBottom: 20,fontFamily:"Roboto-Italic" },
   info: { fontSize: 16, marginBottom: 10 },
   button: {
     backgroundColor: '#4CAF50',

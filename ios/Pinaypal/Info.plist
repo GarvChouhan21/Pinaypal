@@ -37,10 +37,8 @@
 	<string/>
 	<key>NSMicrophoneUsageDescription</key>
 	<string>Microphone access is required for video calling</string>
-		<key>NSPhotoLibraryUsageDescription</key>
+	<key>NSPhotoLibraryUsageDescription</key>
 	<string>For saving photos</string>
-	<key>NSLocationWhenInUseUsageDescription</key>
-	<string></string>
 	<key>RCTNewArchEnabled</key>
 	<true/>
 	<key>UILaunchStoryboardName</key>
@@ -57,5 +55,9 @@
 	</array>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<false/>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Roboto-Italic.ttf</string>
+	</array>
 </dict>
 </plist>
