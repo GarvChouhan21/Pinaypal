@@ -3,6 +3,7 @@ import React from 'react'
 import { getThemeColors, useThemeColors } from '../../utils/AppColors'
 import CommonInput from '../../components/CommonInput';
 import { useForm } from 'react-hook-form';
+import FaceVerificationScreen from '../FaceVerificationScreen';
 
 const HomeScreen = () => {
   const colors = useThemeColors();
@@ -42,6 +43,7 @@ const HomeScreen = () => {
           },
         }}
       />
+      <FaceVerificationScreen/>
       <Button title="Submit" onPress={handleSubmit(onSubmit)} />
 
     </View>
