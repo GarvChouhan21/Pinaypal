@@ -10,6 +10,7 @@
     "test": "jest"
   },
   "dependencies": {
+    "@react-native-community/netinfo": "^11.4.1",
     "@react-native-masked-view/masked-view": "^0.3.2",
     "@react-native/new-app-screen": "0.80.1",
     "@react-navigation/bottom-tabs": "^7.4.2",
@@ -19,10 +20,12 @@
     "agora-react-native-rtm": "^1.5.1",
     "agora-rn-uikit": "^5.0.2",
     "react": "19.1.0",
+    "react-hook-form": "^7.60.0",
     "react-native": "0.80.1",
     "react-native-agora": "^4.5.3",
     "react-native-camera-kit": "^15.1.0",
     "react-native-gesture-handler": "^2.27.1",
+    "react-native-reanimated": "^3.18.0",
     "react-native-safe-area-context": "^5.5.2",
     "react-native-screens": "^4.11.1",
     "react-native-splash-screen": "^3.3.0",
