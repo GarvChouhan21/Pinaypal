@@ -3,7 +3,7 @@ import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { NavigationContainer } from '@react-navigation/native';
 import HomeScreen from '../screens/homeScreen/HomeScreen';
 import Login from '../screens/loginScreen/Login';
-import FaceVerificationScreen from '../screens/FaceVerificationScreen';
+import FaceVarification from '../screens/faceVarification/FaceVarification';
 // or use other icon library
 
 const Tab = createBottomTabNavigator();
@@ -19,8 +19,8 @@ const BottomTabNavigation = () => {
         })}
       >
         <Tab.Screen name="Home" component={HomeScreen} />
-        <Tab.Screen name="Face Verification" component={FaceVerificationScreen} />
         <Tab.Screen name="Profile" component={Login} />
+        <Tab.Screen name="face" component={FaceVarification} />
       </Tab.Navigator>
     </NavigationContainer>
   );
